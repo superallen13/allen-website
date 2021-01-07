@@ -1,0 +1,129 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 0 auto 0 auto;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  margin: 60px auto;
+  border-color: #c1cfcf;
+  border-width: 10px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+}
+
+.programming {
+  float: left;
+  width: 30%;
+  clip-path: circle(34%);
+}
+
+.cooking {
+  float: right;
+  width: 30%;
+  clip-path: circle(34%);
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/*对文字的float进行消除*/
+
+/*.programming-skill-desc {*/
+/*  clear: left;*/
+/*}*/
+
+/*.cooking-skill-desc {*/
+/*  clear: right;*/
+/*}*/
+
+
+.allen-picture {
+  margin-top: 100px;
+  width: 12%;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 600px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 600px;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  line-height: 50px;
+  color: #DAE8E9;
+  width: 200px;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 5px;
+  background-color: #11999E;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 60px;
+}
+
+.top-container {
+  background-color: #dbf6e9;
+  padding-top: 100px;
+  position: relative;
+}
+
+.bottom-container {
+  padding: 50px 0 30px;
+  background-color: #66BFBF;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 5px 30px;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
